@@ -1,0 +1,415 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+            background-image: url(image/food.jpeg);
+            background-repeat: no-repeat;
+            background-size:1450px 400px; 
+            
+         }
+        .h1{
+          color: white;
+          margin-top:130px;
+          font-size:80px;  
+          font-style: italic;
+          font-family:serif;
+        }
+        .h2{
+          color: white;
+          font-size:30px;  
+          font-family:cursive;
+        }
+.search-container{
+    width:450px;
+    display:flex;
+    background:#fff;
+    border-radius:50px;
+    overflow:hidden;
+    margin-left:33%;
+    margin-top:2%;
+    box-shadow:0 5px 20px rgba(0,0,0,0.15);
+
+    input
+    {
+      flex:1;
+      padding:15px 20px;
+      border:none;
+      outline:none;
+      font-size:16px;
+    }
+
+    button
+    {
+      width:60px;
+      border:none;
+      background:#007BFF;
+      color:#fff;
+      cursor:pointer;
+      font-size:18px;
+      transition:.3s;
+    }
+
+    button:hover
+    {
+     background:#0056b3;
+    }
+
+    @media(max-width:500px){
+    .search-container{
+        width:90%;
+    }
+}
+}
+
+
+        
+        .divburger{
+            background-color:antiquewhite;
+            color: black;
+            margin-top:80px;
+            margin-left: 80px;
+            height:250px;
+            border-radius:20px;
+            box-shadow:2px 2px 5px black;
+            width:500px;
+        }
+        .burger{
+        border-top-left-radius:20px;  
+        border-top-right-radius: 20px;
+        height:150px;
+        width:100%;
+        }
+        .stay{
+            margin-top:-5px;
+            font-size:20px;
+            font-family: monospace;
+        }
+
+        .divburger:hover
+        {
+            width:520px;
+            height:260px;
+        }
+        .localities_head{
+            margin-left:60px;
+            margin-top:15px;
+            font-size:50px;
+            font-style: italic;
+            font-family: sans-serif;
+        }
+        .localities_div{
+         height:100px;
+         width:1300px;
+         margin-top:10px;
+         display: flex;
+        }
+        .localities{
+         background-color: aliceblue;
+         width:40%;
+         height:80px;
+         margin-left:100px;
+         border-radius:20px;
+         box-shadow: 2px 2px 4px black;
+        }
+        .p{
+            margin-left:50px;
+            font-size:20px;
+            margin-top:17px;
+            font-family:monospace;
+        }
+        .app{
+            width:630px;
+            height:390px;
+            margin:auto;
+            margin-top:100px;
+            display: flex;
+        }
+        .phone{
+            width:200px;
+            height:300px;
+           margin-left:20px;
+        }
+        .contact{
+            font-size: 20px;
+            margin-left:10px;
+        }
+        .mail{
+            margin-left:10px;
+            margin-top:30px;
+            height:30px;
+            width:230px;
+        }
+        .share_link{
+            background-color: red;
+            color: white;
+            border-radius:10px;
+            font-size:15px;
+            width:140px;
+            height:35px; 
+        }
+        .dwnld_from{
+            margin-left:10px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .store_class{
+            width:400px;
+            height:100px;
+            display: flex;
+            
+        }
+        .play_store{
+            background-color: white;
+            height: 55px;
+            width: 160px;
+        }
+        .app_store{
+            margin-top:-25px;
+            height:105px;
+            width: 160px;
+            
+        }
+        .explore_option{
+            font-size:50px;
+            margin-left:60px;
+        }
+        
+        .cuisine_near{
+            height:50px;
+            width:90%;
+            margin:15px;
+            font-size:20px;
+            margin-left:70px;
+        }
+    
+        .last_div{
+       background-color:aliceblue;
+       width: 100%;
+       height:450px;
+         }
+
+        .last_head{
+        margin-left:70px;
+        height:50px;
+        width:90%;
+         }
+
+        .last_head>h1
+        {
+        float: left;
+        margin: 5px;
+        }
+        .last_head>select{
+            float: right;
+        }
+    .country{
+        font-size:20px;
+        height:30px;
+        margin:10px;
+        font-family:Arial, Helvetica, sans-serif;
+        width:100px;
+    }
+    
+    th{
+    letter-spacing:3px;
+    }
+    table{
+        text-align: center;
+        width:82%;
+        margin: auto;
+        
+    }
+    a{
+        text-decoration:none;
+    }
+
+    .social_link
+    {
+        height:30px;
+        display: flex;
+        width:30px;
+        margin-top:5px;
+        padding-left:5px;
+        margin-left:30px;
+    }
+  
+
+    /* ===========================
+   Responsive CSS
+=========================== */
+
+/* Laptop */
+@media screen and (max-width:1200px){
+
+    body{
+        background-size:100% 380px;
+    }
+
+    .search-container{
+        width:60%;
+        margin:20px auto;
+    }
+
+    .divburger{
+        width:70%;
+        margin:60px auto;
+    }
+
+    .divburger:hover{
+        width:72%;
+        height:auto;
+    }
+
+    .localities_div{
+        width:100%;
+        justify-content:center;
+        flex-wrap:wrap;
+        height:auto;
+    }
+
+    .localities{
+        width:40%;
+        margin:15px;
+    }
+
+    .app{
+        width:90%;
+        justify-content:center;
+    }
+
+    .cuisine_near{
+        width:90%;
+        margin:15px auto;
+        display:block;
+    }
+
+    table{
+        width:95%;
+    }
+
+    .last_div{
+        height:auto;
+        padding-bottom:30px;
+    }
+
+}
+
+
+/* Mobile */
+
+@media screen and (max-width:768px){
+
+    body{
+        background-size:100% 250px;
+    }
+
+    .h1{
+        font-size:50px;
+        margin-top:80px;
+    }
+
+    .h2{
+        font-size:20px;
+        padding:0 15px;
+    }
+
+    .search-container{
+        width:90%;
+    }
+
+    .divburger{
+        width:90%;
+        margin:40px auto;
+        height:auto;
+    }
+
+    .divburger:hover{
+        width:90%;
+    }
+
+    .burger{
+        height:180px;
+    }
+
+    .localities_head{
+        font-size:30px;
+        margin:20px;
+    }
+
+    .localities_div{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .localities{
+        width:90%;
+        margin:10px 0;
+    }
+
+    .app{
+        flex-direction:column;
+        width:95%;
+        height:auto;
+        text-align:center;
+        align-items:center;
+    }
+
+    .phone{
+        margin:0;
+        width:180px;
+        height:270px;
+    }
+
+    .mail{
+        width:90%;
+    }
+
+    .store_class{
+        justify-content:center;
+        flex-wrap:wrap;
+        width:100%;
+    }
+
+    .play_store,
+    .app_store{
+        width:140px;
+        height:auto;
+    }
+
+    .explore_option{
+        font-size:30px;
+        margin:20px;
+    }
+
+    .cuisine_near{
+        width:90%;
+        margin:10px auto;
+        display:block;
+    }
+
+    .last_head{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        width:100%;
+        height:auto;
+    }
+
+    .country{
+        margin:10px 0;
+    }
+
+    table{
+        display:block;
+        overflow-x:auto;
+        white-space:nowrap;
+    }
+
+    .last_div{
+        height:auto;
+        padding:20px 10px;
+    }
+
+}
