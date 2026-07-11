@@ -3,6 +3,7 @@ A responsive Zomato-inspired frontend clone built with HTML, CSS, and JavaScript
 
 # Zomato Demo Clone
 https://zomatodemoclone.netlify.app/
+
 A responsive frontend clone of the Zomato website created using HTML, CSS, and JavaScript. This project replicates the look and feel of Zomato's homepage with a clean, modern, and mobile-friendly design.
 
 ## Features
