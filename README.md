@@ -20,7 +20,4 @@ A responsive frontend clone of the Zomato website created using HTML, CSS, and J
 - JavaScript
 
 ## Purpose
-This project was built for learning, practice, and portfolio purposes only. It is not affiliated with or endorsed by Zomato.
-
-## Author
-Vanita Saxena
+This project was built for practice, and portfolio purposes only. It is not affiliated with or endorsed by Zomato.
